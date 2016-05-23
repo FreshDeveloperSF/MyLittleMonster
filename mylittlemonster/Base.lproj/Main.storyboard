@@ -75,7 +75,7 @@
                                 <rect key="frame" x="107" y="201" width="524" height="367"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="387" id="aSZ-vs-cna"/>
-                                    <constraint firstAttribute="width" constant="688" id="bb8-xi-IZ8"/>
+                                    <constraint firstAttribute="width" constant="680" id="bb8-xi-IZ8"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -93,11 +93,14 @@
                             <constraint firstAttribute="trailing" secondItem="dzT-h4-hP3" secondAttribute="trailing" id="cGE-mb-a0v"/>
                             <constraint firstItem="Du9-fJ-IpX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fbX-bH-1Sg"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="7xP-at-ArO" secondAttribute="bottom" constant="41" id="iAl-VT-njS"/>
-                            <constraint firstItem="7xP-at-ArO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-120" id="n2u-0B-7OL"/>
+                            <constraint firstItem="7xP-at-ArO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-100" id="n2u-0B-7OL"/>
                             <constraint firstItem="dzT-h4-hP3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="u9d-TZ-G8H"/>
                             <constraint firstItem="Qoc-qr-LqX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xrM-tU-CeM"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="monsterImg" destination="7xP-at-ArO" id="kBc-U6-NGI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
