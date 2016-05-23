@@ -20,12 +20,21 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="Qoc-qr-LqX">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ground" translatesAutoresizingMaskIntoConstraints="NO" id="dzT-h4-hP3">
+                                <rect key="frame" x="0.0" y="549" width="600" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="HbY-gt-Xoi"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dzT-h4-hP3" secondAttribute="bottom" id="4PO-bb-5fm"/>
                             <constraint firstItem="Qoc-qr-LqX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="LJe-vP-aau"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Qoc-qr-LqX" secondAttribute="bottom" id="U0x-3t-Yk4"/>
                             <constraint firstAttribute="trailing" secondItem="Qoc-qr-LqX" secondAttribute="trailing" id="W6d-vE-1RC"/>
+                            <constraint firstAttribute="trailing" secondItem="dzT-h4-hP3" secondAttribute="trailing" id="cGE-mb-a0v"/>
+                            <constraint firstItem="dzT-h4-hP3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="u9d-TZ-G8H"/>
                             <constraint firstItem="Qoc-qr-LqX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xrM-tU-CeM"/>
                         </constraints>
                     </view>
@@ -37,5 +46,6 @@
     </scenes>
     <resources>
         <image name="bg" width="768" height="1024"/>
+        <image name="ground" width="1444" height="151"/>
     </resources>
 </document>
