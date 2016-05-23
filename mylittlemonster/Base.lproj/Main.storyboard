@@ -34,11 +34,39 @@
                                     <constraint firstAttribute="height" constant="81" id="DSq-xx-5hS"/>
                                 </constraints>
                             </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="srO-zk-5Zt">
+                                <rect key="frame" x="206" y="32" width="182" height="50"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skull" translatesAutoresizingMaskIntoConstraints="NO" id="LyK-n9-04a">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="cTs-2C-gqj"/>
+                                            <constraint firstAttribute="width" constant="50" id="kUx-QC-hIS"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skull" translatesAutoresizingMaskIntoConstraints="NO" id="oeK-za-bZu">
+                                        <rect key="frame" x="66" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="XLG-pz-eOe"/>
+                                            <constraint firstAttribute="width" constant="50" id="eDA-NS-lrC"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skull" translatesAutoresizingMaskIntoConstraints="NO" id="3JP-Kq-OAx">
+                                        <rect key="frame" x="132" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="dEf-Ht-fVH"/>
+                                            <constraint firstAttribute="width" constant="50" id="lp3-nZ-HZw"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dzT-h4-hP3" secondAttribute="bottom" id="4PO-bb-5fm"/>
+                            <constraint firstItem="srO-zk-5Zt" firstAttribute="centerX" secondItem="Du9-fJ-IpX" secondAttribute="centerX" id="ISt-jH-JqX"/>
                             <constraint firstItem="Qoc-qr-LqX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="LJe-vP-aau"/>
+                            <constraint firstItem="srO-zk-5Zt" firstAttribute="centerY" secondItem="Du9-fJ-IpX" secondAttribute="centerY" id="NZ1-yk-7MW"/>
                             <constraint firstItem="Du9-fJ-IpX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="TQx-bs-zsk"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Qoc-qr-LqX" secondAttribute="bottom" id="U0x-3t-Yk4"/>
                             <constraint firstAttribute="trailing" secondItem="Qoc-qr-LqX" secondAttribute="trailing" id="W6d-vE-1RC"/>
@@ -58,5 +86,6 @@
         <image name="bg" width="768" height="1024"/>
         <image name="ground" width="1444" height="151"/>
         <image name="livespanel" width="468" height="137"/>
+        <image name="skull" width="95" height="98"/>
     </resources>
 </document>
