@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC0E55CE1CF3AE100024F2B4 /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0E55CD1CF3AE100024F2B4 /* DragImg.swift */; };
 		EC40AC751CF38BB00011558A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC40AC741CF38BB00011558A /* AppDelegate.swift */; };
 		EC40AC771CF38BB00011558A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC40AC761CF38BB00011558A /* ViewController.swift */; };
 		EC40AC7A1CF38BB00011558A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC40AC781CF38BB00011558A /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC0E55CD1CF3AE100024F2B4 /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImg.swift; sourceTree = "<group>"; };
 		EC40AC711CF38BB00011558A /* mylittlemonster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mylittlemonster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC40AC741CF38BB00011558A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC40AC761CF38BB00011558A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				EC40AC741CF38BB00011558A /* AppDelegate.swift */,
 				EC40AC761CF38BB00011558A /* ViewController.swift */,
 				EC40AC781CF38BB00011558A /* Main.storyboard */,
+				EC0E55CD1CF3AE100024F2B4 /* DragImg.swift */,
 				EC40AC7B1CF38BB00011558A /* Assets.xcassets */,
 				EC40AC7D1CF38BB00011558A /* LaunchScreen.storyboard */,
 				EC40AC801CF38BB00011558A /* Info.plist */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC0E55CE1CF3AE100024F2B4 /* DragImg.swift in Sources */,
 				EC40AC771CF38BB00011558A /* ViewController.swift in Sources */,
 				EC40AC751CF38BB00011558A /* AppDelegate.swift in Sources */,
 			);
@@ -484,6 +488,7 @@
 				EC40AC9B1CF38BB10011558A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC40AC9C1CF38BB10011558A /* Build configuration list for PBXNativeTarget "mylittlemonsterTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				EC40AC9E1CF38BB10011558A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC40AC9F1CF38BB10011558A /* Build configuration list for PBXNativeTarget "mylittlemonsterUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				EC40ACA11CF38BB10011558A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
