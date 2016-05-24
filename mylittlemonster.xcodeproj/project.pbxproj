@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		EC0E55CE1CF3AE100024F2B4 /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0E55CD1CF3AE100024F2B4 /* DragImg.swift */; };
 		EC29D5121CF4EA5D0038BF2B /* MonsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29D5111CF4EA5D0038BF2B /* MonsterImg.swift */; };
+		EC29D5181CF508000038BF2B /* bite.wav in Resources */ = {isa = PBXBuildFile; fileRef = EC29D5131CF508000038BF2B /* bite.wav */; };
+		EC29D5191CF508000038BF2B /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC29D5141CF508000038BF2B /* cave-music.mp3 */; };
+		EC29D51A1CF508000038BF2B /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = EC29D5151CF508000038BF2B /* death.wav */; };
+		EC29D51B1CF508000038BF2B /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = EC29D5161CF508000038BF2B /* heart.wav */; };
+		EC29D51C1CF508000038BF2B /* skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = EC29D5171CF508000038BF2B /* skull.wav */; };
 		EC40AC751CF38BB00011558A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC40AC741CF38BB00011558A /* AppDelegate.swift */; };
 		EC40AC771CF38BB00011558A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC40AC761CF38BB00011558A /* ViewController.swift */; };
 		EC40AC7A1CF38BB00011558A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC40AC781CF38BB00011558A /* Main.storyboard */; };
@@ -38,6 +43,11 @@
 /* Begin PBXFileReference section */
 		EC0E55CD1CF3AE100024F2B4 /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImg.swift; sourceTree = "<group>"; };
 		EC29D5111CF4EA5D0038BF2B /* MonsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImg.swift; sourceTree = "<group>"; };
+		EC29D5131CF508000038BF2B /* bite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bite.wav; sourceTree = "<group>"; };
+		EC29D5141CF508000038BF2B /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cave-music.mp3"; sourceTree = "<group>"; };
+		EC29D5151CF508000038BF2B /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
+		EC29D5161CF508000038BF2B /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heart.wav; sourceTree = "<group>"; };
+		EC29D5171CF508000038BF2B /* skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = skull.wav; sourceTree = "<group>"; };
 		EC40AC711CF38BB00011558A /* mylittlemonster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mylittlemonster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC40AC741CF38BB00011558A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC40AC761CF38BB00011558A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +111,11 @@
 		EC40AC731CF38BB00011558A /* mylittlemonster */ = {
 			isa = PBXGroup;
 			children = (
+				EC29D5131CF508000038BF2B /* bite.wav */,
+				EC29D5141CF508000038BF2B /* cave-music.mp3 */,
+				EC29D5151CF508000038BF2B /* death.wav */,
+				EC29D5161CF508000038BF2B /* heart.wav */,
+				EC29D5171CF508000038BF2B /* skull.wav */,
 				EC40AC741CF38BB00011558A /* AppDelegate.swift */,
 				EC40AC761CF38BB00011558A /* ViewController.swift */,
 				EC40AC781CF38BB00011558A /* Main.storyboard */,
@@ -235,6 +250,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC29D51C1CF508000038BF2B /* skull.wav in Resources */,
+				EC29D5181CF508000038BF2B /* bite.wav in Resources */,
+				EC29D51A1CF508000038BF2B /* death.wav in Resources */,
+				EC29D51B1CF508000038BF2B /* heart.wav in Resources */,
+				EC29D5191CF508000038BF2B /* cave-music.mp3 in Resources */,
 				EC40AC7F1CF38BB00011558A /* LaunchScreen.storyboard in Resources */,
 				EC40AC7C1CF38BB00011558A /* Assets.xcassets in Resources */,
 				EC40AC7A1CF38BB00011558A /* Main.storyboard in Resources */,
